@@ -1,0 +1,51 @@
+.commentBox{
+    width: 90%;
+    margin-left: 39px;
+}
+.commentPic{
+    width: 50px;
+    border-radius: 115px;
+    margin-right: 20px;
+}
+.commentNameInfo{
+    display: inline-block;
+    width: 80%;
+    font-size: 20px;
+}
+.commentContent{
+    width: 80%;
+    margin-left: 71px;
+}
+h3{
+    width: 90%;
+    margin-left: 21px;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+.commentSection{
+    margin-top: -60px;
+}
+@media screen and (max-width: 700px) {
+    .commentNameInfo{
+        font-size: 16px;
+   }
+    .commentContent{
+        width: 80%;
+        margin-left: 45px;
+        margin-top: 0px;
+        font-size: 13.5px;
+   }
+    .commentSection{
+        margin-top: -170px;
+   }
+    h3{
+        font-size: 18px;
+        margin-left: 21px;
+   }
+    .commentPic{
+        width: 39px;
+        border-radius: 115px;
+        margin-right: 20px;
+        margin-left: -15px;
+   }
+}

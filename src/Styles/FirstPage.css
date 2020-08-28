@@ -1,0 +1,63 @@
+.frontLogo{
+    width: 27vw;
+    max-width: 390px;
+    display: relative;
+    margin-bottom: 43px;
+    margin-top: 25px;
+}
+.firstInput{
+    width: 61vw;
+    margin-top: -20px;
+    display: absolute;
+    border-radius: 24px;
+    text-decoration: none;
+    height: 45px;
+    border-width:0px;
+    border:none;
+    background-color: #1e1e1e;
+    border: 1px grey solid;
+    font-size: 13.5px;
+    color: white;
+    padding-left: 20px;
+}
+.Search{
+    display: flexbox;
+    text-align: center;
+    justify-content: center;
+    margin-top: 25vh;
+}
+.frontButton {
+    background-color: #363636;
+    border: none;
+    color: white;
+    padding:10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 30px 3px 10px 10px;
+    border-radius: 3px;
+}
+.firstInput[type=text]:focus {
+    outline:none;
+}
+.SearchEx{
+    text-align: center;
+}
+@media screen and (min-width: 1500px) {
+    .Search{
+        margin-top: 20vh;
+   }
+}
+@media screen and (max-width: 700px) {
+    .frontLogo{
+        width: 43vw;
+   }
+    .firstInput{
+        width: 89vw;
+   }
+    .frontButton {
+        padding:6px 9px;
+        font-size: 9px;
+   }
+}
